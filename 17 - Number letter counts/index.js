@@ -1,6 +1,5 @@
 const numberLetterLengths = {0:0,1:3,2:3,3:5,4:4,5:4,6:3,7:5,8:5,9:4,10:3}
 
-
 for(let i = 11;i < 100;i++){
   switch(Math.floor(i/10)){
     case 1:
@@ -40,7 +39,6 @@ function getNumberWordLength(n) {
   n = new Array(Math.floor((n.toString().length-1)/3)+1).fill().map((_,i)=>n.toString().substring(n.toString().length-i*3, n.toString().length-i*3-3));
 
   let length = 0;
-  console.log(n)
   n.forEach((triplet,i)=>{
     length += tripletTypes[i].length + getTripletWordLength(Number(triplet));
   })

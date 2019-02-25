@@ -40,4 +40,4 @@ function largestPalindromeProduct(n) {
   }
   return palindrome;
 }
-console.log(largestPalindromeProduct(5));
+console.log(largestPalindromeProduct(3));

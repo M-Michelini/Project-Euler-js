@@ -4,4 +4,4 @@ function sumSquareDifference(n) {
   const squareOfSum = numbers.reduce((acc, n) => acc + n) ** 2;
   return Math.abs(sumOfSquares - squareOfSum);
 }
-console.log(sumSquareDifference(10));
+console.log(sumSquareDifference(100));

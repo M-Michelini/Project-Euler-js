@@ -10,4 +10,4 @@ function largestProductinSeries(n) {
   }return largestProd;
 }
 
-console.log(largestProductinSeries(4))
+console.log(largestProductinSeries(13))
